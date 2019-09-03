@@ -9,6 +9,7 @@ dependencies {
     // font awesome
     implementation 'info.androidhive:fontawesome:0.0.5'
 }
+
 2. How to use it?
 2.1 Displaying Icon in TextView
 
@@ -40,6 +41,7 @@ FontDrawable drawable = new FontDrawable(this, R.string.fa_paper_plane_solid, tr
 drawable.setTextColor(ContextCompat.getColor(this, android.R.color.white));
 fab.setImageDrawable(drawable);
 font-awesome-floating-action-button
+
 2.3 Using in Menus (Bottom Navigation, Navigation Drawer etc.,)
 You can also use the font icons in the widgets that uses menu file to render the items like Toolbar icons, Bottom Navigation, Navigation Drawer etc., To render the icon in menus, you can use the FontDrawable to set the icons, but it needs few hacks through java code.
 
